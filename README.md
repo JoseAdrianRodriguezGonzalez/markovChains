@@ -270,7 +270,9 @@ orden</figcaption>
 ## Encontrar estados recurrentes
 
 Esto es únicamente con el fin de encontrar cuales son estados
-recurrentes dado la definición $$\sum^{\infty}_{n=1}p_{jj}<\infty$$
+recurrentes dado la definición 
+
+$$\sum^{\infty}_{n=1}p_{jj}<\infty$$
 
 ``` {#lst:etapa3b .r language="R" caption="Etapa 2" label="lst:etapa3b"}
 identificar_recurrentes_aprox <- function(P, max_iter = 100, nombres_estados = NULL) {
