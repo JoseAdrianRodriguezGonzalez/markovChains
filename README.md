@@ -230,12 +230,16 @@ Finalmente en la línea 37, podemos llamar a la simulación, con 100 días,
 una matriz de transición, cada 5 minutos y con la cantidad de
 habitaciones que en la etapa 1 se definieron.
 
-Dada la siguiente matriz generada en la etapa 2. $$P=\begin{bmatrix}
+Dada la siguiente matriz generada en la etapa 2. 
+
+$$P=\begin{bmatrix}
     0.3387 &0.2097& 0.2580&0.1935 \\
     0.12 & 0.32 &0.32 & 0.24 \\
     0.1973 & 0.2631 &0.1973 & 0.3421 \\
     0.2297 & 0.2432 & 0.2837 & 0.2432
-\end{bmatrix}$$ Y con una simulación de 100 días cada 5 minutos se
+\end{bmatrix}$$
+
+Y con una simulación de 100 días cada 5 minutos se
 obtuvieron los resultados de las gráficas (fig
 [2](#fig:evolucion){reference-type="ref" reference="fig:evolucion"}, fig
 [3](#fig:histo){reference-type="ref" reference="fig:histo"}) La figura
