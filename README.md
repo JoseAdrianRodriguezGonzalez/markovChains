@@ -69,7 +69,7 @@ El código de (Listing.
 [\[lst:etapa1\]](#lst:etapa1){reference-type="ref"
 reference="lst:etapa1"}) Muestra como generar un grafo con R. Se utiliza
 una librería llamada *igraph* que permite graficar un grafo. En la
-función $ crear\_grafo $, se le pasan las aristas y se le indica que es un
+función \(crear\_grafo\), se le pasan las aristas y se le indica que es un
 grafo dirigido y preguntamos si queremos graficar. Finalmente retorna g,
 que es un objeto del tipo graph que servirá para poder gráficar fuera de
 la función. La imagen [1](#fig:grafo de dirección){reference-type="ref"
