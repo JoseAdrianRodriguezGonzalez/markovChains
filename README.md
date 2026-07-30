@@ -122,9 +122,7 @@ cantidad de habitaciones y la cantidad de pasos
 
 Consistirá en crear el modelo de markov. El modelo de markov está
 determinado por 
-$$
-    p(\mathbf{x}_1,\dots,\mathbf{x}_n)=p(\mathbf{x}_1)\prod^{N}_{n=2}p(\mathbf{x}_n|\mathbf{x}_{n-1})
-$$
+$$p(\mathbf{x}_1,\dots,\mathbf{x}_n)=p(\mathbf{x}_1)\prod^{N}_{n=2}p(\mathbf{x}_n|\mathbf{x}_{n-1})$$
 La ecuación (Eq.1
 [\[eq:cadena_markov\]](#eq:cadena_markov){reference-type="ref"
 reference="eq:cadena_markov"}) describe como es el modelo de markov, en
