@@ -69,7 +69,7 @@ El código de (Listing.
 [\[lst:etapa1\]](#lst:etapa1){reference-type="ref"
 reference="lst:etapa1"}) Muestra como generar un grafo con R. Se utiliza
 una librería llamada *igraph* que permite graficar un grafo. En la
-función $crear_grafo$, se le pasan las aristas y se le indica que es un
+función $crear\_grafo$, se le pasan las aristas y se le indica que es un
 grafo dirigido y preguntamos si queremos graficar. Finalmente retorna g,
 que es un objeto del tipo graph que servirá para poder gráficar fuera de
 la función. La imagen [1](#fig:grafo de dirección){reference-type="ref"
@@ -122,9 +122,15 @@ cantidad de habitaciones y la cantidad de pasos
 
 Consistirá en crear el modelo de markov. El modelo de markov está
 determinado por 
+
 $$
-    p(\mathbf{x}_1,\dots,\textbf{x}_n)=p(\mathbf{x}_1)\prod^{N}_{n=2}p(\mathbf{x}_n|\mathbf{x}_{n-1})
-    $$
+p(\mathbf{x}_1,\dots,\mathbf{x}_n)
+=
+p(\mathbf{x}_1)
+\prod_{n=2}^{N}
+p(\mathbf{x}_n \mid \mathbf{x}_{n-1})
+$$
+
 La ecuación (Eq.1
 [\[eq:cadena_markov\]](#eq:cadena_markov){reference-type="ref"
 reference="eq:cadena_markov"}) describe como es el modelo de markov, en
